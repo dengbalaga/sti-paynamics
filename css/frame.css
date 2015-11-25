@@ -1,0 +1,33 @@
+body {
+	margin-top: 0px; /* adjust this if the height of the menu bar changes */
+}
+.nav_wrapper {
+	background-color:#333;
+	height:140px;
+}
+.nav {
+		margin-bottom:30px;
+}
+.navbar-fixed-top .nav {
+	padding: 15px 0 15px 0;
+/* 	padding: 15px 0; */
+}
+
+footer {
+	padding: 30px 0;	
+}
+
+.tab-pane {
+	padding-left:20px;
+}
+
+
+/* ADDITIONAL */
+.navbar { background-color:#333; }
+
+
+@media (max-width: 768px) {
+	.nav_wrapper {
+		height:80px;
+	}
+}
