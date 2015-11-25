@@ -22,32 +22,6 @@
 <link rel="apple-touch-icon" href="images/stilogo-icon.png">
 <link rel="icon" href="images/favicon.ico">
 
-<style type="text/css">
-.sti-paynamics-wrapper { 
-  background: url(images/bg-onlinepayment.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.sti-paynamics-box {
-	background-color:#FFF;
-	color:#555;
-	height:300px;
-	width:100%;
-	padding:24px;
-}
-.sti-paynamics-leftbox {
-	color:#fff;
-}
-.sti-paynamics-leftbox p {
-	color:#fff;
-}
-</style>
-
-
-
-
 <!-- attach CSS styles -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" />
@@ -101,6 +75,62 @@ window._fbq.push(['track', 'PixelInitialized', {}]);
 
 </script>
 <!-- /GOOGLE -->
+
+
+
+<style type="text/css">
+.sti-paynamics-wrapper { 
+  background: url(images/bg-onlinepayment.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.sti-paynamics-box {
+/*	background-color:#FFF;*/
+	color:#555;
+	
+	width:100%;
+	padding:24px;
+	
+}
+.sti-paynamics-leftbox {
+	color:#fff;
+	
+}
+.sti-paynamics-leftbox p {
+	color:#fff;
+}
+.sti-paynamics-content {
+	color:#fff;
+	font-weight:normal;
+	letter-spacing:normal;
+}
+.sti-paynamics-form {
+	/*border-radius:0 !important;*/
+}
+.control-label {
+	text-align:left !important;
+}
+.label {
+	color:#fff;
+}
+.color-white { color:#fff; }
+
+.sti-paynamics-gbut {
+	background-color:transparent;
+	border:1px solid #fff;
+	color:#fff200;
+}
+
+.sti-paynamics-sbut {
+	background-color:#fff;
+	border:1px solid #fff;
+	color:#333;
+}
+
+</style>
+
 </head>
 <body>
 
@@ -211,55 +241,162 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 <!-- /NAV -->
 
+
 <div class="sti-paynamics-wrapper" style="padding-top:100px;">
 <div class="container">
-	<p>&nbsp;</p><p>&nbsp;</p>
+	
+ 
+ 
+   <div class="col-row">
+        <div class="col-lg-12" style="sti-paynamics-leftbox">
+            <p>&nbsp;</p>
+            <h1 style="color:#fff200;">STI Online Payment Gateway</h1>
+            <hr>
+            <p>&nbsp;</p>
+        </div>
+   </div>
+ 
+
+ 
     <div class="col-row">
 	<div class="col-lg-5" style="sti-paynamics-leftbox">
 
-    	<h2 style="color:#fff200;">STI Online Payment Gateway</h2>
-    	<p>We now accept online payments. <br>
-   	    Consectetur adipiscing elit. Quisque id nunc sollicitudin leo luctus rutrum vitae non eros. </p>
-    	<p>Praesent molestie tincidunt magna, finibus elementum eros tincidunt ut. Integer faucibus erat felis, porta rutrum tortor condimentum non. Cras elementum diam tortor, in tempor nunc luctus eget. Praesent blandit dui in sagittis varius. Praesent hendrerit finibus purus. </p>
-    	<p>Praesent molestie tincidunt magna, finibus elementum eros tincidunt ut. Integer faucibus erat felis, porta rutrum tortor condimentum non. Cras elementum diam tortor, in tempor nunc luctus eget. Praesent blandit dui in sagittis varius. Praesent hendrerit finibus purus. </p>
+    	<p class="sti-paynamics-content lead">We now accept online payments. </p>
+   	    <p class="sti-paynamics-content">Consectetur adipiscing elit. Quisque id nunc sollicitudin leo luctus rutrum vitae non eros. </p>
+    	<p class="sti-paynamics-content">Praesent molestie tincidunt magna, finibus elementum eros tincidunt ut. Integer faucibus erat felis, porta rutrum tortor condimentum non. Cras elementum diam tortor, in tempor nunc luctus eget. Praesent blandit dui in sagittis varius. Praesent hendrerit finibus purus. </p>
+    	<p class="sti-paynamics-content">Praesent molestie tincidunt magna, finibus elementum eros tincidunt ut. Integer faucibus erat felis, porta rutrum tortor condimentum non. Cras elementum diam tortor, in tempor nunc luctus eget. Praesent blandit dui in sagittis varius. Praesent hendrerit finibus purus. </p>
+    	<p class="sti-paynamics-content">
+        	<img src="images/visa.png" alt=""/> &nbsp;<img src="images/mastercard.png" alt=""/> &nbsp;<img src="images/paypal.png" alt=""/>&nbsp;<img src="images/dragonpay.png" alt=""/>
+        </p>
     	<p>&nbsp;</p>
-    	<p>&nbsp;</p>
-    	<p>&nbsp;</p>
-    	<p>&nbsp;</p>
-    	<p>&nbsp;</p>
-    	<p>&nbsp;</p>
-    	<p>&nbsp;</p>
-    	<p>&nbsp;</p>
-    	<p>&nbsp;</p>
+        <h3 style="color:#fff;">Frequently Asked Questions</h3>
 
-    </div>
-	<div class="col-lg-7">
-    	<div class="sti-paynamics-box">
-        	<h3>Payment Details</h3>
+
+        <!-- COLLAPSE -->
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingOne">
+              <h4 class="panel-title">
+                1. <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit? 
+                </a>
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+              <div class="panel-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo">
+              <h4 class="panel-title">
+                2. <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                   Ut quis orci a lacus dictum condimentum, Duis quis volutpat metus? 
+                </a>
+              </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="panel-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingThree">
+              <h4 class="panel-title">
+                3. <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                   Donec dignissim diam vel facilisis tincidunt? 
+                </a>
+              </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+              <div class="panel-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /COLLAPSE -->
+
+
+        <p>&nbsp;</p>    
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+
+    </div><!-- / COLUMN LEFT -->
+    
+	<div class="col-lg-7" style="padding-top:0px; margin-top:0px;">
+    	<div class="sti-paynamics-box" style="padding-top:0px; margin-top:0px;">
+        
+        	<h3 class="color-white" style="padding-top:0px; margin-top:0px;">Payment Details</h3>
             <hr>
                    
             <form class="form-horizontal">
               <div class="form-group">
-                <label for="inputEmail3" class="col-sm-2 control-label">Student ID</label>
+                <label for="inputEmail3" class="col-sm-2 control-label color-white">Student ID</label>
                 <div class="col-sm-4	">
-                  <input type="text" class="form-control" id="inputEmail3" placeholder="Student ID">
+                  <input type="text" class="form-control sti-paynamics-form sti-paynamics-gbut" id="inputEmail3" placeholder="Student ID">
                 </div>
               </div>
               <div class="form-group">
-                <label for="inputPassword3" class="col-sm-2 control-label">Campus</label>
+                <label for="inputPassword3" class="col-sm-2 control-label color-white">Campus</label>
                 <div class="col-sm-10">
-                  <select class="form-control"><label for="inputPassword3" class="col-sm-2 control-label">Select Campus</label></select>
+                  <select class="form-control sti-paynamics-form sti-paynamics-gbut">
+                  	<option>Select Campus</option>
+                  </select>
                 </div>
               </div>
               <div class="form-group">
-                <label for="inputPassword3" class="col-sm-2 control-label">Program</label>
+                <label for="inputPassword3" class="col-sm-2 control-label color-white">Program</label>
                 <div class="col-sm-10">
-                  <select class="form-control"><label for="inputPassword3" class="col-sm-2 control-label">Select Program</label></select>
+                  <select class="form-control sti-paynamics-form sti-paynamics-gbut">
+                  	<option>Select Program</option>
+                  </select>
+                </div>
+              </div>
+
+
+              <div class="row form-group" style="padding-left:16px;">
+
+                <div class="col-sm-4">
+                   <div class="form-group" style="padding-right:16px;">
+                  <label for="exampleInputEmail1" class="color-white">Given Name</label>
+                  <input type="email" class="form-control sti-paynamics-gbut" id="exampleInputEmail1" placeholder="First Name">
+                </div>
+                </div>
+
+                <div class="col-sm-4">
+                   <div class="form-group" style="padding-right:16px;">
+                  <label for="exampleInputEmail1" class="color-white">Surname</label>
+                  <input type="email" class="form-control sti-paynamics-gbut" id="exampleInputEmail1" placeholder="Last Name">
+                </div>
+                </div>
+
+                <div class="col-sm-4">
+                 <div class="form-group" style="padding-right:16px;">
+                    <label for="exampleInputEmail1" class="color-white">Middle Name</label>
+                    <input type="email" class="form-control sti-paynamics-gbut" id="exampleInputEmail1" placeholder="Middle Name">
+                  </div>
+                </div>
+
+			  </div>
+
+               <div class="form-group">
+                <label for="inputEmail" class="col-sm-2 control-label color-white">Email</label>
+                <div class="col-sm-10	">
+                  <input type="text" class="form-control sti-paynamics-form sti-paynamics-gbut" id="inputEmail" placeholder="Email Address">
+                </div>
+              </div>
+               <div class="form-group">
+                <label for="inputAmount" class="col-sm-2 control-label color-white">Amout to be paid</label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control sti-paynamics-form sti-paynamics-gbut" id="inputAmount" placeholder="Amount">
                 </div>
               </div>
               <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
-                  <button type="submit" class="btn btn-default">Sign in</button>
+                  <button type="submit" class="btn btn-md sti-paynamics-sbut">Proceed</button>
                 </div>
               </div>
             </form>
@@ -268,8 +405,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
 	</div>
 
+            
 </div>
-</div>
+
+
+</div><!-- / PAYNAMICS wrapper -->
 
 
 
@@ -289,79 +429,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 	<footer id="footer" class="top-space">
 
-		<div class="footer1_home" >
-			<div class="container">
-				<div class="row">
-					
-					<div class="col-md-3 widget">
-						<h3 class="widget-title">Contact</h3>
-						<div class="widget-body">
-	<p><b>STI Head Office:</b><br /> STI Academic Center Ortigas-Cainta, <br />Ortigas Avenue Extension, Cainta, 1900 Rizal<br />Tel. (632) 812-1STI (784)<br>
-								<br>
-								For inquiries <a href="contact.asp">Click here</a>
-<br>To contact the administrator <a href="mailto:dennis.balaga@sti.edu">Click here</a>
-</p>
-						</div>
-					</div>
 
-					<div class="col-md-3 widget">
-						<h3 class="widget-title">Follow me</h3>
-						<div class="widget-body">
-							<p class="follow-me-icons clearfix">
-								<a href="https://www.facebook.com/sti.edu" target="_blank"><i class="fa fa-facebook fa-2"></i></a>
-								<a href="https://www.youtube.com/user/STIdotEdu" target="_blank"><i class="fa fa-youtube fa-2"></i></a>
-								<a href="https://twitter.com/sticollege" target="_blank"><i class="fa fa-twitter fa-2"></i></a>
-							</p>	
-						</div>
-					</div>
-
-
-
-					<div class="col-md-3 widget">
-						<h3 class="widget-title">Other Links</h3>
-						<div class="widget-body">
-<ul class="list-unstyled">
-<li><a href="careers.asp">Career Opportunities</a></li>
-<li><a href="http://www.i-cares.com" target="_blank">I-Cares</a></li>
-<li><a href="http://www.alumni.sti.edu" target="_blank">Alumni Website</a></li>
-<li><a href="http://anniversary.sti.edu" target="_blank">Anniversary Website</a></li>
-<li><a href="students_stimuli.asp">STIMULI Publication</a></li>
-<li><a href="scope.asp">SCOPE</a></li>
-</ul>
-						</div>
-					</div>
-
-
-					<div class="col-md-3 widget">
-						<h3 class="widget-title"><!--Email Subscription-->&nbsp;</h3>
-						<div class="widget-body">
-<!--							<p>Stay updated &amp; subscribe to our mailing list. </p>
-                          
-                            <p>
-                       	  <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-					<div class="input-group">
-					    <input type="email" value="" placeholder="E-mail address" name="EMAIL" class="required email form-control" id="mce-EMAIL">
-					    <span class="input-group-btn">
-						<input type="submit" class="button btn btn-default" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
-					    </span>
-					</div>
-				</form>  
-                            </p>-->
- 
- <ul class="list-unstyled">
-<li><a href="admissions_registration.asp">Online Registration</a></li>
-<li><a href="admissions_requirements.asp">Admission Requirements</a></li>
-<li><a href="mediagallery.asp">STI Videos</a></li>
-<li><a href="senior_high_school.asp">Senior High School</a></li>
-<li><a href="about_sti_foundation.asp">STI Foundation</a></li>
-</ul>
-                            
-						</div>
-					</div>
-
-				</div> <!-- /row of widgets -->
-			</div>
-		</div>
 
 		<div class="footer2" style="background-color:#fff200 !important;">
 			<div class="container">
@@ -377,12 +445,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 					<div class="col-md-6 widget">
 						<div class="widget-body">
-<!--							<p class="simplenav">
-								<a href="#">Home</a> | 
-								<a href="#">About STI</a> |
-								<a href="#">Admissions</a> |
-								<a href="#">Programs</a> |
-							<a href="#">Students</a> </p>-->
+<p class="text-right">
+							Privacy Policy. Terms & Condition.</p>
 						</div>
 					</div>
 
@@ -400,62 +464,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-<script src="assets/viewportchecker.js"></script>
-<script type="text/javascript">
-jQuery(document).ready(function() {
-	jQuery('.home').addClass("hidden").viewportChecker({
-	    classToAdd: 'visible animated fadeInDown', // Class to add to the elements when they are visible
-	    offset: 100    
-	   });   
-});            
-</script>
-
-<!-- attach JavaScripts -->  
-<script>
-$('.carousel').carousel({
-  interval: 2000
-})
-</script>
 
 
 <script src="js/jquery-1.10.2.js"></script>
-<script src="js/jquery.appear.js"></script>
-<script src="js/foundation.min.js"></script>
-<script>
-      $(document).foundation();
-	  $(document).ready(function($) {
-
-    $('.animated').appear();
-    $('.animated').on('appear', function() {
-        var elem = $(this);
-        var animation = elem.data('animation');
-        if ( !elem.hasClass('visible') ) {
-            var animationDelay = elem.data('animation-delay');
-            if ( animationDelay ) {
-                setTimeout(function(){
-                    elem.addClass( animation + " visible" );
-                }, animationDelay);
-            } else {
-                elem.addClass( animation + " visible" );
-            }
-        }
-    });
-	
-	
-	
-
-});
-</script>
-
-
-
-
-
 <script src="js/bootstrap.min.js"></script>
-<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-<script src="js/main.js"></script>
-<script src="js/googlemaps.js"></script>
 
+
+<script>
+$('#accordion').collapse({
+  toggle: false
+})
+</script>
 
 
 <!-- GOOGLE TAG MANAGER DETAILS -->
