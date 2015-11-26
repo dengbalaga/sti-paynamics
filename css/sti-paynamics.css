@@ -1,0 +1,56 @@
+
+.sti-paynamics-wrapper { 
+  background: url(../images/bg-onlinepayment.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.sti-paynamics-wrapper2 { 
+}
+.sti-paynamics-box {
+/*	background-color:#FFF;*/
+	color:#555;
+	
+	width:100%;
+	padding:24px;
+	
+}
+.sti-paynamics-leftbox {
+	color:#fff;
+	
+}
+.sti-paynamics-leftbox p {
+	color:#fff;
+}
+.sti-paynamics-content {
+	color:#fff;
+	font-weight:normal;
+	letter-spacing:normal;
+}
+.sti-paynamics-form {
+	/*border-radius:0 !important;*/
+}
+.control-label {
+	text-align:left !important;
+}
+.label {
+	color:#fff;
+}
+.color-white { color:#fff; }
+
+.sti-paynamics-gbut {
+	background-color:transparent;
+	border:1px solid #fff;
+	color:#fff200;
+}
+
+.sti-paynamics-sbut {
+	background-color:#fff;
+	border:1px solid #fff;
+	color:#333;
+}
+.sti-paynamics-header-wrapper {
+	background-color:#0a3d73;	
+}
+
