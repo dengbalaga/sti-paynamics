@@ -87,37 +87,50 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <p>&nbsp;</p><p>&nbsp;</p>
             <h1>STI Online Payment Gateway</h1>
             <hr>
-            <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
-            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
-            <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
+            <p class="thin">Nullam quis risus eget urna mollis ornare vel eu leo. <br>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+			
+            
+                <div class="row">
+                <div class="col-md-12">
+                    <div class="alert alert-danger-alt alert-dismissable">
+                        <i class="fa fa-exclamation-circle fa-2x"> Error!</i> 
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">
+                            ×</button>
+                            <br>
+                            <br>Error Messages: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+                            <br>Error Messages: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+                    </div>
+                    <div class="alert alert-success-alt alert-dismissable">
+                        <i class="fa fa-check-circle fa-2x"> Success!</i>
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">
+                            ×</button>
+                            <br>
+                            <br>Success Messages : Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+                            <br>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+                    </div>
+                </div>
+    			</div>
+            
+            
+            <div class="row" style="padding-left:0px; margin-right:0px;"></div>
+
+
+			<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+			<h4 class="lead">&nbsp;</h4>
+
+            <div class="row" style="padding-left:0px; margin-right:0px;"></div>
+            
+			<p>&nbsp;</p>
+		</div>
+
+
        </div>
+
    </div>
  
 
  
-    <div class="col-row">
 
-
-            
-</div>
 
 </div><!-- / PAYNAMICS wrapper -->
 
@@ -147,8 +160,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	</footer>	
 <!-- /FOOTER -->
 
+
 <script src="js/jquery-1.10.2.js"></script>
 <script src="js/bootstrap.min.js"></script>
+
+<script>
+$(document).on('click', '.panel-heading span.clickable', function(e){
+    var $this = $(this);
+	if(!$this.hasClass('panel-collapsed')) {
+		$this.parents('.panel').find('.panel-body').slideUp();
+		$this.addClass('panel-collapsed');
+		$this.find('i').removeClass('glyphicon-chevron-up').addClass('glyphicon-chevron-down');
+	} else {
+		$this.parents('.panel').find('.panel-body').slideDown();
+		$this.removeClass('panel-collapsed');
+		$this.find('i').removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
+	}
+})
+</script>
+
 
 
 </body>

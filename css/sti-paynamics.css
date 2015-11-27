@@ -51,6 +51,33 @@
 	color:#333;
 }
 .sti-paynamics-header-wrapper {
-	background-color:#0a3d73;	
+	background-color:#0a3d73;
+	border-bottom:2px solid #fff200;	
 }
+.sti-paynamics-paneltitle2 { background-color:#d0e0e6; color:555; }
+
+
+
+
+.alert-danger-alt { border-color: #B63E5A;background: #e73f4e;color: #fff; }
+.alert-warning-alt { border-color: #F3F3EB;background: #E9CEAC;color: #fff; }
+.alert-success-alt { border-color: #19B99A;background: #2da53b;color: #fff; }
+
+
+
+/*.row{
+    margin-top:40px;
+    padding: 0 10px;
+}*/
+
+.clickable{
+    cursor: pointer;   
+}
+
+.panel-heading span {
+	margin-top: -20px;
+	font-size: 15px;
+}
+
+
 

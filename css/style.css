@@ -403,9 +403,16 @@ e2e .panel-title { color:#000; }
 
 
 footer {
+/*	  position: absolute;
+  bottom: 0;
+*/  width: 100%;
   padding: 0 0;
 
 }
+
+
+
+
 footer .glyphicon {
   color: #333333;
   font-size: 60px;
